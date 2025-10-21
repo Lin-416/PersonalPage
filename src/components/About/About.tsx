@@ -12,7 +12,7 @@ const About = () => {
                         src={
                             picture.startsWith('http')
                                 ? picture
-                                : `/images/${picture}`
+                                : `images/${picture}`
                         }
                         alt={name}
                         className='about__picture hidden md:flex'
@@ -24,7 +24,7 @@ const About = () => {
                         <h1>
                             Hi, I am
                             <span className='about__name'>
-                                {name}.
+                                {" " + name}.
                             </span>
                         </h1>
                     )}
